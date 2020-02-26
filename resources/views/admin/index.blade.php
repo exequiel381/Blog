@@ -44,37 +44,37 @@
         </a>
       </div>
     </div>
-    <div class="col-xl-3 col-sm-6 mb-3">
-      <div class="card text-white bg-success o-hidden h-100">
-        <div class="card-body">
-          <div class="card-body-icon">
-            <i class="fas fa-fw fa-shopping-cart"></i>
-          </div>
-          <div class="mr-5">123 New Orders!</div>
-        </div>
-        <a class="card-footer text-white clearfix small z-1" href="#">
-          <span class="float-left">View Details</span>
-          <span class="float-right">
-            <i class="fas fa-angle-right"></i>
-          </span>
-        </a>
-      </div>
-    </div>
-    <div class="col-xl-3 col-sm-6 mb-3">
-      <div class="card text-white bg-danger o-hidden h-100">
-        <div class="card-body">
-          <div class="card-body-icon">
-            <i class="fas fa-fw fa-life-ring"></i>
-          </div>
-          <div class="mr-5">13 New Tickets!</div>
-        </div>
-        <a class="card-footer text-white clearfix small z-1" href="#">
-          <span class="float-left">View Details</span>
-          <span class="float-right">
-            <i class="fas fa-angle-right"></i>
-          </span>
-        </a>
-      </div>
+    <!--<div class="col-xl-3 col-sm-6 mb-3">-->
+    <!--  <div class="card text-white bg-success o-hidden h-100">-->
+    <!--    <div class="card-body">-->
+    <!--      <div class="card-body-icon">-->
+    <!--        <i class="fas fa-fw fa-shopping-cart"></i>-->
+    <!--      </div>-->
+    <!--      <div class="mr-5">123 New Orders!</div>-->
+    <!--    </div>-->
+    <!--    <a class="card-footer text-white clearfix small z-1" href="#">-->
+    <!--      <span class="float-left">View Details</span>-->
+    <!--      <span class="float-right">-->
+    <!--        <i class="fas fa-angle-right"></i>-->
+    <!--      </span>-->
+    <!--    </a>-->
+    <!--  </div>-->
+    <!--</div>-->
+    <!--<div class="col-xl-3 col-sm-6 mb-3">  -->
+    <!--  <div class="card text-white bg-danger o-hidden h-100">-->
+    <!--    <div class="card-body">-->
+    <!--      <div class="card-body-icon">-->
+    <!--        <i class="fas fa-fw fa-life-ring"></i>-->
+    <!--      </div>-->
+    <!--      <div class="mr-5">13 New Tickets!</div>-->
+    <!--    </div>-->
+    <!--    <a class="card-footer text-white clearfix small z-1" href="#">-->
+    <!--      <span class="float-left">View Details</span>-->
+    <!--      <span class="float-right">-->
+    <!--        <i class="fas fa-angle-right"></i>-->
+    <!--      </span>-->
+    <!--    </a>-->
+    <!--  </div>-->
     </div>
   </div>
 
@@ -82,7 +82,7 @@
   <div class="card mb-3">
     <div class="card-header">
       <i class="fas fa-chart-area"></i>
-      Area Chart Example</div>
+      ACTIVIDAD</div>
     <div class="card-body">
       <canvas id="myAreaChart" width="100%" height="30"></canvas>
     </div>
@@ -93,7 +93,7 @@
   <div class="card mb-3">
     <div class="card-header">
       <i class="fas fa-table"></i>
-      Data Table Example</div>
+     LOS MEJORES CHEF DEL MUNDO </div>
     <div class="card-body">
       <div class="table-responsive">
         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

@@ -42,4 +42,6 @@ Route::get('admin', 'AdminController@index');
 // Route::patch('/posts/{post}', 'PostsController@update');
 // Route::delete('/posts/{post}', 'PostsController@destroy');
 
+Route::get('/users', 'userController@index');
+
 Route::resource('posts', 'PostsController');
