@@ -18,13 +18,7 @@
 //     return view('welcome');
 // });
 
-Route::get('/about', function () {
-    return view('about');
-});
 
-Route::get('/contact', function () {
-    return view('contact');
-});
 
 Auth::routes();
 
@@ -32,6 +26,10 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home/{id}', 'HomeController@show');
 
 Route::get('admin', 'AdminController@index');
+
+Route::post('/comment/{id}', 'CommentsController@store');
+//Route::resource('comments', 'CommentsController');
+
 
 
 // Route::get('/posts', 'PostsController@index');
@@ -42,6 +40,10 @@ Route::get('admin', 'AdminController@index');
 // Route::patch('/posts/{post}', 'PostsController@update');
 // Route::delete('/posts/{post}', 'PostsController@destroy');
 
+Route::get('/post/{id}', 'PostsController@show')->name('posts.show');
+
 Route::get('/users', 'userController@index');
 
 Route::resource('posts', 'PostsController');
+
+

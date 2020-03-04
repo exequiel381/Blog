@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Comment;
 use App\Post;
 use Illuminate\Http\Request;
 
@@ -30,6 +31,7 @@ class PostsController extends Controller
     {
         $posts = Post::orderBy('id', 'desc')
                 ->get();
+
         return view('admin.posts.index', ['posts' => $posts]);
     }
 

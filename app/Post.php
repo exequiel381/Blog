@@ -10,4 +10,9 @@ class Post extends Model
     {
         return $this->belongsTo('App\User', 'userId');
     }
+
+    public function comments()
+    {
+        return $this->hasMany('App\Comment');
+    }
 }
